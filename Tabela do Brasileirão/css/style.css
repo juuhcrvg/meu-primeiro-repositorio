@@ -1,0 +1,105 @@
+@import url();  https://fonts.google.com/specimen/Anek+Malayalam?query=ane
+* { padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: "Anek Malyam", sans-serif;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+table{
+    width: 100vw;
+    text-align: center;    
+}
+.tr-red {
+    border-left: 10px solid red;
+}
+.yellow {
+    border-left: 10px solid yellow;
+}
+.green {
+    border-left: 10px solid green;
+}
+.header{
+    background-color: #12b212;
+    color: #f9fbf9;
+    border: 2px solid black;
+    border-collapse:collapse ;
+    font-size: 0.75em;
+
+}
+#logo td{
+    height: 15px;
+    padding-top: 10px;
+}
+td{
+    height: 20px;
+    width: 80px;
+}
+.nav-conteudo-lateral{
+    width: 400px;
+}
+.nav-destacado{
+    /* background-color: rgb(7, 120, 7); */
+    border-bottom: 3px solid #ffffff;
+}l 
+.tabela-brasileirao{
+    border:1px solid #cbdef1;
+    border-top: none;
+    border-bottom: none;
+    width: 40vw;
+    margin-left: 50%;
+
+    font-size: 0.10em;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+
+#tabela-brasileirao-header{
+    padding: 20px;
+    padding-left: 10px;
+    background-color: #f0f4f7;
+    text-align: left;
+    color: #b1b9de;
+}
+
+#ano{
+    font-weight: 600;
+    color: #4285f4;
+    
+}
+
+.tabela-brasileirao th{
+    border-top: 1px solid #e0e0e0;
+    font-weight: 100;
+    color: #70758d;
+    padding: 4px;
+    height:35px ;
+}
+
+.tabela-brasileirao td{
+    border-top: 1px solid #e0e0e0;
+    font-weight: 100;
+    color: #000000;   
+    border-top: 1px solid #cbdef1;
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+.tabela-brasileirao img{
+    width: 25px;
+}
+ 
+.titulo-clube{
+    width: 50%;
+    text-align: left;
+}
+.titulo-ultima-cinco{
+    width: 20%;
+}
+.titulo-ultima-cinco img{
+    width: 17px;
+}
